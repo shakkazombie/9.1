@@ -1,17 +1,25 @@
 // scripts.js 
 
 function getTriangleArea(a, h) {
-    if ((a > 0) && (h > 0)) {
-        return a * h / 2;
+    var wynik = ((a * h) / 2);
+
+    if (a > 0 && h > 0) {
+        return wynik;
     } else {
-        document.write('złe dane' + "<br/>");
+        (a <= 0 && h <= 0); {
+            alert('nieprawidłowe dane');
+        }
     }
+
+
+
 }
 
-var triangle1Area = getTriangleArea(10, 15);
-var triangle2Area = getTriangleArea(10, 6);
-var triangle3Area = getTriangleArea(-2, 7);
+var triangle1Area = getTriangleArea(3, 3);
+var triangle2Area = getTriangleArea(13, 1);
+var triangle3Area = getTriangleArea(1, 7);
 
-document.write(triangle1Area + "<br/>");
-document.write(triangle2Area + "<br/>");
-document.write(triangle3Area + "<br/>");
+document.write(getTriangleArea(10, 6) + " stała wartośc " + "<br/>");
+document.write("pierwszy - " + triangle1Area + "<br/>");
+document.write("drugi - " + triangle2Area + "<br/>");
+document.write("trzeci -" + triangle3Area + "<br/>");
