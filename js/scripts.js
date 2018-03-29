@@ -6,14 +6,14 @@ function getTriangleArea(a, h) {
     if (a > 0 && h > 0) {
         return wynik;
     } else(a <= 0 && h <= 0); {
-        alert('nieprawidłowe dane');
+        return ('nieprawidłowe dane');
     }
 
 }
 
 var triangle1Area = getTriangleArea(3, 3);
-var triangle2Area = getTriangleArea(13, 1);
-var triangle3Area = getTriangleArea(-1, 7);
+var triangle2Area = getTriangleArea(13, 0);
+var triangle3Area = getTriangleArea(8, 7);
 
 document.write(getTriangleArea(10, 6) + " stała wartośc " + "<br/>");
 document.write("pierwszy - " + triangle1Area + "<br/>");
