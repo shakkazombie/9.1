@@ -9,4 +9,8 @@ Sprawdzenie:
 
 https://github.com/shakkazombie/9.1
 
+Update:
+błąd w składni: poprawiono
+Ps. teraz tak mnie oświeciło, że tej drugiej składni (a <= 0 && h <= 0) może nie być. 
+
 
